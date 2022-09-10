@@ -1,41 +1,43 @@
-/* */
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+html {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
 /* Colors */
-
-#main_results {
-  background-color:#252627;  
-}
-
-#results {   
-  color: #669DFF;
-  background: #252627;
-}
-
-#search_header {
-  background:#252627;
-}
-
+#main_results,
+#search_header,
 #search {
-  background:#252627;
+    background-color: #252627;
 }
+
+#results {
+    color: #669DFF;
+    background: #252627;
+}
+
 
 highlight {
-  color: #459321;
+    color: #459321;
 }
 
 .search_filters {
-  background:#252627;
+    background: #252627;
 }
 
 
 .cache_link {
-  color:#E80125;   
+    color: #E80125;
 }
 
 .engines {
-  color: #60CE70;   
+    color: #60CE70;
 }
 
 
-a.url_wrapper:link{
-  color: #8B8B8B;
+a.url_wrapper:link {
+    color: #8B8B8B;
 }
+

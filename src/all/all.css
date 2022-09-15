@@ -1,0 +1,53 @@
+/* base/palette.scss */
+:root {
+    /*just pitch black*/
+    --black: #000000;
+    --white: #FCFDFC;
+    --normal-blue: #003B71; /*mostly for UI borders*/
+    --light-blue: #a2a9bb; /*mostly for text unless we wanna use white*/
+    --grey: #555555
+}
+
+
+/* base/general.scss */
+.no-touch, .container-fluid {
+    background-color: var(--black);
+}
+
+
+/* components/classroom-list.scss */
+.list-group-item, .content-section, .no-link-decoration, .classroom-info {
+    background-color: var(--black);
+    box-shadow: 0 0 0 0 var(--black);
+    border-left: 0px;
+}
+
+.classroom[data-v-65ddbb2c] {
+    box-shadow: none;
+    border-left: none;
+    border-radius: 10px;
+}
+
+.classroom-title{
+    color: var(--grey); 
+}
+
+.classroom-title:hover {
+    color: var(--white); 
+}
+
+.cdc, .cdc-sections, .cdc-overlay {
+    background-color: var(--black);
+}
+
+/* components/navbar.scss */
+a.list-group-item:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a.nav-drawer-toggle:hover {
+    background-color: var(--black);
+    color: var(--black)
+    
+}

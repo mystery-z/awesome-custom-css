@@ -95,4 +95,11 @@
     /* honestly IDK if this works, if it doens't just ignore & delete */
 }
 
+.classroom .classroom-info .classroom-image-wrapper .fresh-posts-count[data-v-65ddbb2c] {
+// really dumb dot thingy that i wanna reverse the color scheme for it looks ugly af
+
+	background: $grey;
+	border: 1px solid $grey;
+	color: $black;
+}
 

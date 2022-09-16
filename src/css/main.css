@@ -106,6 +106,12 @@
   /* honestly IDK if this works, if it doens't just ignore & delete */
 }
 
+.classroom .classroom-info .classroom-image-wrapper .fresh-posts-count[data-v-65ddbb2c] {
+  background: #8c8c8c;
+  border: 1px solid #8c8c8c;
+  color: #000000;
+}
+
 /* pages/indiv_classroom */
 #inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
   background-color: #000000;

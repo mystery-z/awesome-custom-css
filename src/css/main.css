@@ -26,7 +26,7 @@
 }
 
 .classroom-title {
-  color: #555555;
+  color: #8c8c8c;
 }
 .classroom-title:hover {
   color: #FCFDFC;
@@ -34,6 +34,139 @@
 
 .cdc, .cdc-sections, .cdc-overlay {
   background-color: #000;
+}
+
+/* = - -- - - -*/
+.btn-default {
+  color: #8c8c8c;
+  background-color: #000000;
+  border: none;
+}
+
+.btn-default.active,
+.btn-default:active,
+.btn-default:hover,
+.open > .btn-default.dropdown-toggle {
+  /* "view all x classrooms" button */
+  color: #FCFDFC;
+  background-color: #000000;
+  outline: none !important;
+  border: none;
+}
+
+.btn.btn-share,
+.btn-group.open .btn-share.dropdown-toggle,
+.btn.btn-primary,
+.btn-block.btn-primary,
+.btn.btn-share:hover,
+.btn-group.open:hover .btn-share.dropdown-toggle:hover,
+.btn.btn-primary:hover,
+.btn-block.btn-primary:hover {
+  /* compact, standard toggle */
+  background-color: #000000;
+  border: none;
+}
+
+.category .category-title .category-line[data-v-9045ee96] {
+  /* the line thingy */
+  background-color: #8c8c8c;
+}
+
+/* classroom list */
+.list-group-item,
+.content-section,
+.no-link-decoration,
+.classroom-info {
+  /* Classroom grid, background to black and border shadow to 0 (honestly IDK if that even works) */
+  background-color: #000000;
+  box-shadow: 0 0 0 0 #000000;
+}
+
+.classroom[data-v-65ddbb2c] {
+  box-shadow: none;
+  /* just doing rounded corners for each classroom */
+  border-left: none;
+  border-radius: 10px;
+}
+
+.classroom-title {
+  color: #8c8c8c;
+  /* classroom title in the grid, font color change */
+}
+
+.classroom-title:hover {
+  color: #FCFDFC;
+  /* doing the hover to lightup thing for classroom titles */
+}
+
+.cdc,
+.cdc-sections,
+.cdc-overlay {
+  background-color: #000000;
+  /* honestly IDK if this works, if it doens't just ignore & delete */
+}
+
+/* pages/indiv_classroom */
+#inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
+  background-color: #000000;
+  box-shadow: 0 1px 4px #000000;
+  margin: none;
+}
+
+/* components/left-navbar.scss */
+.list-group-item {
+  background-color: #000000;
+  color: #8c8c8c;
+}
+
+a.list-group-item:hover {
+  /* left navbar hover to light up */
+  background-color: #000000;
+  color: #FCFDFC;
+}
+
+a.nav-drawer-toggle:hover {
+  /* the x button at the top left, lui tried to fix in chinese but he couldn't, very ass if u ask me*/
+  background-color: #000000;
+  color: #000000;
+}
+
+.navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover,
+header .navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover {
+  /* the stupid "x" button at the top */
+  background-color: #000000;
+}
+
+/* /components/todos.scss */
+.user-classrooms,
+.header-container,
+.header-title[data-v-d5e8726a] {
+  color: #8c8c8c;
+}
+
+/* components/add_button.scss */
+header .navbar .btn-global {
+  /* add button on top right */
+  background-color: #000000;
+  color: #8c8c8c;
+  box-shadow: none;
+  border: none;
+}
+
+header .navbar .btn-global:hover {
+  /* hover to light up */
+  background-color: #000000;
+  color: #FCFDFC;
+  box-shadow: none;
+  border: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+/* components/left-navbar.scss */
+.list-group-item {
+    background-color: $black;
+    color: $grey;
+}
+
+a.list-group-item:hover {
+    /* left navbar hover to light up */
+    background-color: $black;
+    color: $white;
+}
+
+a.nav-drawer-toggle:hover {
+    /* the x button at the top left, lui tried to fix in chinese but he couldn't, very ass if u ask me*/
+    background-color: $black;
+    color: $black;
+}
+
+.navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover,
+header .navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover {
+    /* the stupid "x" button at the top */
+    background-color: $black;
+}

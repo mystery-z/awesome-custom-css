@@ -21,3 +21,78 @@
 .cdc, .cdc-sections, .cdc-overlay {
 	background-color: $primary_background;
 }
+/* = - -- - - -*/
+
+// components/homepage.scss 
+// above classroom list 
+.btn-default {
+    //* "Classrooms and social groups" text 
+    color: $grey;
+    background-color: $black;
+    border: none;
+}
+
+.btn-default.active,
+.btn-default:active,
+.btn-default:hover,
+.open > .btn-default.dropdown-toggle {
+    /* "view all x classrooms" button */
+    color: $white;
+    background-color: $black;
+    outline: none !important;
+    border: none;
+}
+
+.btn.btn-share,
+.btn-group.open .btn-share.dropdown-toggle,
+.btn.btn-primary,
+.btn-block.btn-primary,
+.btn.btn-share:hover,
+.btn-group.open:hover .btn-share.dropdown-toggle:hover,
+.btn.btn-primary:hover,
+.btn-block.btn-primary:hover {
+    /* compact, standard toggle */
+    background-color: $black;
+    border: none;
+}
+
+.category .category-title .category-line[data-v-9045ee96]{
+	/* the line thingy */
+	background-color: $grey;
+}	
+
+/* classroom list */
+.list-group-item,
+.content-section,
+.no-link-decoration,
+.classroom-info {
+    /* Classroom grid, background to black and border shadow to 0 (honestly IDK if that even works) */
+    background-color: $black;
+    box-shadow: 0 0 0 0 $black;
+}
+
+.classroom[data-v-65ddbb2c] {
+    box-shadow: none;
+    /* just doing rounded corners for each classroom */
+    border-left: none;
+    border-radius: 10px;
+}
+
+.classroom-title {
+    color: $grey;
+    /* classroom title in the grid, font color change */
+}
+
+.classroom-title:hover {
+    color: $white;
+    /* doing the hover to lightup thing for classroom titles */
+}
+
+.cdc,
+.cdc-sections,
+.cdc-overlay {
+    background-color: $black;
+    /* honestly IDK if this works, if it doens't just ignore & delete */
+}
+
+

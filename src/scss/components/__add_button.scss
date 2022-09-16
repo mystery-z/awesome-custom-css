@@ -1,0 +1,16 @@
+/* components/add_button.scss */
+header .navbar .btn-global {
+    /* add button on top right */
+    background-color: $black;
+    color: $grey;
+    box-shadow: none;
+    border: none;
+}
+
+header .navbar .btn-global:hover {
+    /* hover to light up */
+    background-color: $black;
+    color: $white;
+    box-shadow: none;
+    border: none;
+}

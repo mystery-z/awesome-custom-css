@@ -1,0 +1,39 @@
+:root {
+  --font: "Source Sans 3", sans-serif;
+}
+
+.no-touch {
+  background-color: #000;
+}
+
+.container-fluid {
+  background-color: #000;
+}
+
+.list-group-item,
+.content-section,
+.no-link-decoration,
+.classroom-info {
+  background-color: #000;
+  box-shadow: none;
+  border-left: 0px;
+}
+
+.classroom[data-v-65ddbb2c] {
+  box-shadow: none;
+  border-left: none;
+  border-radius: 10px;
+}
+
+.classroom-title {
+  color: #555555;
+}
+.classroom-title:hover {
+  color: #FCFDFC;
+}
+
+.cdc, .cdc-sections, .cdc-overlay {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=main.css.map */

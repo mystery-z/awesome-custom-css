@@ -1,0 +1,23 @@
+// Classroom List 
+.list-group-item,
+.content-section,
+.no-link-decoration,
+.classroom-info {
+	background-color: $primary_background;
+	box-shadow: none;
+	border-left: 0px;
+}
+.classroom[data-v-65ddbb2c] {
+	box-shadow: none;
+	border-left: none;
+	border-radius: $primary_radius;
+}
+.classroom-title {
+	color: $grey;
+	&:hover {
+		color: $white;
+	}
+}
+.cdc, .cdc-sections, .cdc-overlay {
+	background-color: $primary_background;
+}

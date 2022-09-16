@@ -1,0 +1,162 @@
+/* base/palette.scss */
+:root {
+    /*just pitch black*/
+    --black: #000000;
+    --white: #FCFDFC;
+    --normal-blue: #003B71;
+    /*mostly for UI borders*/
+    --light-blue: #a2a9bb;
+    /*mostly for text unless we wanna use white*/
+    --grey: #8C8c8c
+}
+
+
+/* base/general.scss */
+.no-touch,
+.container-fluid {
+    background-color: var(--black);
+    /*literally just turns the background to amoled-black */
+}
+
+
+/** components/homepage.scss **/
+/* above classroom list */
+.btn-default {
+    /* "Classrooms and social groups" text */
+    color: var(--grey);
+    background-color: var(--black);
+    border: none;
+}
+
+.btn-default.active,
+.btn-default:active,
+.btn-default:hover,
+.open > .btn-default.dropdown-toggle {
+    /* "view all x classrooms" button */
+    color: var(--white);
+    background-color: var(--black);
+    outline: none !important;
+    border: none;
+}
+
+.btn.btn-share,
+.btn-group.open .btn-share.dropdown-toggle,
+.btn.btn-primary,
+.btn-block.btn-primary,
+.btn.btn-share:hover,
+.btn-group.open:hover .btn-share.dropdown-toggle:hover,
+.btn.btn-primary:hover,
+.btn-block.btn-primary:hover {
+    /* compact, standard toggle */
+    background-color: var(--black);
+    border: none;
+}
+
+.category .category-title .category-line[data-v-9045ee96]{
+	/* the line thingy */
+	background-color: var(--grey);
+}	
+
+/* classroom list */
+.list-group-item,
+.content-section,
+.no-link-decoration,
+.classroom-info {
+    /* Classroom grid, background to black and border shadow to 0 (honestly IDK if that even works) */
+    background-color: var(--black);
+    box-shadow: 0 0 0 0 var(--black);
+}
+
+.classroom[data-v-65ddbb2c] {
+    box-shadow: none;
+    /* just doing rounded corners for each classroom */
+    border-left: none;
+    border-radius: 10px;
+}
+
+.classroom-title {
+    color: var(--grey);
+    /* classroom title in the grid, font color change */
+}
+
+.classroom-title:hover {
+    color: var(--white);
+    /* doing the hover to lightup thing for classroom titles */
+}
+
+.cdc,
+.cdc-sections,
+.cdc-overlay {
+    background-color: var(--black);
+    /* honestly IDK if this works, if it doens't just ignore & delete */
+}
+
+
+/* components/left-navbar.scss */
+.list-group-item {
+    background-color: var(--black);
+    color: var(--grey);
+}
+
+a.list-group-item:hover {
+    /* left navbar hover to light up */
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a.nav-drawer-toggle:hover {
+    /* the x button at the top left, lui tried to fix in chinese but he couldn't, very ass if u ask me*/
+    background-color: var(--black);
+    color: var(--black)
+}
+
+.navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover,
+header .navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a.active,
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .search-help:hover {
+    /* the stupid "x" button at the top */
+    background-color: var(--black);
+}
+
+
+/* /components/todos-s.scss */
+.user-classrooms,
+.header-container,
+.header-title[data-v-d5e8726a] {
+    color: var(--grey);
+}
+
+
+/* components/add_button.scss */
+header .navbar .btn-global {
+    /* add button on top right */
+    background-color: var(--black);
+    color: var(--grey);
+    box-shadow: none;
+    border: none;
+}
+
+header .navbar .btn-global:hover {
+    /* hover to light up */
+    background-color: var(--black);
+    color: var(--white);
+    box-shadow: none;
+    border: none;
+}
+
+
+/* classroom page */
+
+#inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
+	background-color: var(--black); !important
+	color: var(--light-blue); !important
+	box-shadow: 0 1px 4px #000000;
+	margin: none;
+}
+

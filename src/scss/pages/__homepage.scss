@@ -3,14 +3,14 @@
 .content-section,
 .no-link-decoration,
 .classroom-info {
-	background-color: $primary_background;
+	background-color: $primary-background;
 	box-shadow: none;
 	border-left: 0px;
 }
 .classroom[data-v-65ddbb2c] {
 	box-shadow: none;
 	border-left: none;
-	border-radius: $primary_radius;
+	border-radius: $primary-radius;
 }
 .classroom-title {
 	color: $grey;
@@ -19,7 +19,7 @@
 	}
 }
 .cdc, .cdc-sections, .cdc-overlay {
-	background-color: $primary_background;
+	background-color: $primary-background;
 }
 /* = - -- - - -*/
 
@@ -75,7 +75,13 @@
     box-shadow: none;
     /* just doing rounded corners for each classroom */
     border-left: none;
-    border-radius: 10px;
+    border-radius: $primary-radius;
+
+	transition: box-shadow 250ms ease-in-out 10ms;
+
+	&:hover {
+		box-shadow: $box-border-primary $white !important;
+	}
 }
 
 .classroom-title {

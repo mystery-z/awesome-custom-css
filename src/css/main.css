@@ -22,7 +22,7 @@
 .classroom[data-v-65ddbb2c] {
   box-shadow: none;
   border-left: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .classroom-title {
@@ -86,7 +86,11 @@
   box-shadow: none;
   /* just doing rounded corners for each classroom */
   border-left: none;
-  border-radius: 10px;
+  border-radius: 5px;
+  transition: box-shadow 250ms ease-in-out 10ms;
+}
+.classroom[data-v-65ddbb2c]:hover {
+  box-shadow: 0 0 0 2px #FCFDFC !important;
 }
 
 .classroom-title {

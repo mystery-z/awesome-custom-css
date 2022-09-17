@@ -7,5 +7,35 @@
 // fun fact i don't actually know what the above code does cos i was coding at 1 am, but i think it does something so pls don;t delete it
 }
 
+.main-container .todos-container {
+    //for when the thing is loading
+	background: $black;
+	border-radius: none;
+} 
 
+.event-filters>button[data-v-95a639b8], .main-container, .todos-container {
+	background: $black;
+	color: $white;
+	box-shadow: none;
+	border-bottom: none !important;
+	border-left: none !important; 
+}
 
+.event-filters[data-v-95a639b8] {
+	background: $black;
+	color: $black;
+	border-bottom: none !important;
+	border-left: none !important;
+	box-shadow: none;
+}
+
+.panel-default>.panel-heading {
+	color: $grey;
+	background-color: $black;
+	border-color: $black;
+	border-radius: none;
+}
+.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa] {
+	color: $black;
+	
+}

@@ -158,6 +158,38 @@ header .navbar .search-help:hover {
   color: #8c8c8c;
 }
 
+.main-container .todos-container {
+  background: #000000;
+  border-radius: none;
+}
+
+.event-filters > button[data-v-95a639b8], .main-container, .todos-container {
+  background: #000000;
+  color: #FCFDFC;
+  box-shadow: none;
+  border-bottom: none !important;
+  border-left: none !important;
+}
+
+.event-filters[data-v-95a639b8] {
+  background: #000000;
+  color: #000000;
+  border-bottom: none !important;
+  border-left: none !important;
+  box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+  color: #8c8c8c;
+  background-color: #000000;
+  border-color: #000000;
+  border-radius: none;
+}
+
+.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa] {
+  color: #000000;
+}
+
 /* components/add_button.scss */
 header .navbar .btn-global {
   /* add button on top right */

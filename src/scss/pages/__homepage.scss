@@ -7,17 +7,20 @@
 	box-shadow: none;
 	border-left: 0px;
 }
+
 .classroom[data-v-65ddbb2c] {
 	box-shadow: none;
 	border-left: none;
 	border-radius: $primary-radius;
 }
+
 .classroom-title {
 	color: $grey;
 	&:hover {
 		color: $white;
 	}
 }
+
 .cdc, .cdc-sections, .cdc-overlay {
 	background-color: $primary-background;
 }

@@ -1,0 +1,114 @@
+
+
+
+/*quiz page*/
+
+//top bar
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton {
+	background-color: $black; //legit just does background color to black
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.btn-default.dropdown-toggle.focus, .open>.btn-default.dropdown-toggle:focus, .open>.btn-default.dropdown-toggle:hover {
+	//the goddamn arrow that's so annoying - hover
+	background-color: $black;
+	color: $white;
+	border-color: $black;
+}
+
+//submit for eval. dropdown menu hover i hate teamie welp
+.dropdown-menu li > a:hover{
+	background-color: $black;
+	color: $white;	
+}
+
+.dropdown-menu {
+	//teamie pls make better dropdown menus
+	background-color: $black;
+	color: $grey;
+}
+
+.quiz-taking .quiz-take-header .quiz-take-header-bar .display-score{
+	//the marks counter at the top
+	background-color: $black;
+}
+
+//the question numbers 
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li a {
+	border: 0px;
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation a:hover, tme-classroom-view .classroom-next:hover {
+	//teamie hovers are designed so badly wtf
+	background-color: $black;
+	color: $white;
+}
+
+a {
+	color: $grey;
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .success a {
+	//questions that were answered correctly
+	background: $black;
+	color: $green;
+	border: 0px;
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .answered a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a:hover {
+	//1. don't ask, 2. this is for active question:
+	// the box thing with number in it if its answered but not checked
+	background: $black;
+	color: $white;
+}
+
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-danger, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-success{
+	border-top: 10px solid $green !important; //the arrow if the question is correct
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down{
+	border-top: 10px solid $white; //arrow default
+}
+
+
+//actual middle part
+.quiz-taking {
+	//literally just sets background color to black
+	background-color: $black;	
+}
+
+.mcq-question .question-option {
+	background:$black; //the rectangle for each button
+	border: 0px;
+}
+.mcq-question .question-option .question-option-label  {
+	color: $grey; //text color
+}
+
+.mcq-question .question-option .question-option-input {
+	border-right: 0px;
+}
+
+//actual middle part but hover stuff
+.mcq-question .question-option:hover:not(.non-edit) {
+	background:$black; //the rectangle for each button
+	border: 0px;
+}
+.mcq-question .question-option .question-option-label:hover  {
+	color: $white; //text color
+}
+
+.mcq-question .question-option .question-option-input:hover {
+	border-right: 0px;
+}
+
+//teamie why are you like this - marks box
+.quiz-taking .question-view .question-container .question-score {
+	border: 0px;
+}
+
+//bottom part istg teamie has crappy css
+.quiz-taking .quiz-take-bottom {
+	background: $black;
+} 

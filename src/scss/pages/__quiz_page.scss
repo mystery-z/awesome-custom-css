@@ -55,6 +55,14 @@ a {
 	border: 0px;
 }
 
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .danger a{
+	//wrong questions
+	background: black;
+	color: #red;
+	border: 0px;
+	
+}
+
 .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .answered a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a:hover {
 	//1. don't ask, 2. this is for active question:
 	// the box thing with number in it if its answered but not checked
@@ -63,8 +71,13 @@ a {
 }
 
 
-.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-danger, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-success{
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-success{
 	border-top: 10px solid $green !important; //the arrow if the question is correct
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-danger{
+	border-top: 10px solid $red !important; //the arrow if the question is wrong
+	
 }
 
 .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down{

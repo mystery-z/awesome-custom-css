@@ -167,13 +167,23 @@ a {
   border: 0px;
 }
 
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .danger a {
+  background: black;
+  color: #red;
+  border: 0px;
+}
+
 .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .answered a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .active a:hover {
   background: #000000;
   color: #FCFDFC;
 }
 
-.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-danger, .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-success {
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-success {
   border-top: 10px solid #41a389 !important;
+}
+
+.quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down-danger {
+  border-top: 10px solid #e92b2b !important;
 }
 
 .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation li .arrow-down {

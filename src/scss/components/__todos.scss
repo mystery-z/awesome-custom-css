@@ -4,7 +4,7 @@
 .header-title[data-v-d5e8726a] {
     color: $grey;
     
-// fun fact i don't actually know what the above code does cos i was coding at 1 am, but i think it does something so pls don;t delete it
+// fun fact i don't actually know what the code below does cos i was coding at 1 am, but i think it does something so pls don;t delete it
 }
 
 .main-container .todos-container {
@@ -38,6 +38,8 @@
 .event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa],
 .todos-container {
 	color: $grey;	
+	box-shadow: 0 0 0px 0 $black;
+	/*banerjee come here and do the hover animation here pls*/
 }
 
 
@@ -50,6 +52,7 @@
 
 .event-footer>button[data-v-6d67d004] /*dumb footer thing*/, 
 .event-wrapper .event-data .mark-as-done[data-v-d600bbfa] {
+	border-top: 1px solid $black;
 	background: $black;
 }
 

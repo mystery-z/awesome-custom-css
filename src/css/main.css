@@ -118,6 +118,8 @@
 
 .node-post, .node-post.node-post-announcement .post-header {
   background-color: #000000;
+  /*BANERJEE THIS IS THE PLACE*/
+  box-shadow: 0 0 0 0 #000000;
 }
 
 /* pages/indiv_classroom */
@@ -137,7 +139,8 @@
 }
 
 .list-posts .node-post {
-  border: 0.5px solid #8c8c8c;
+  box-shadow: 0 0 0 0 #000000;
+  /*ya banerjee do popup here pls*/
 }
 
 a:hover {
@@ -342,7 +345,7 @@ tme-assessment-list-item, tme-survey-list-item {
 }
 
 a.list-group-item:hover {
-  /* left navbar hover to light up */
+  /* BANERJEE HERE: left navbar hover to light up */
   background-color: #000000;
   color: #FCFDFC;
 }
@@ -405,6 +408,8 @@ header .navbar .search-help:hover {
 .event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa],
 .todos-container {
   color: #8c8c8c;
+  box-shadow: 0 0 0px 0 #000000;
+  /*banerjee come here and do the hover animation here pls*/
 }
 
 .event-category .event-category-body[data-v-52456225],
@@ -416,6 +421,7 @@ header .navbar .search-help:hover {
 
 .event-footer > button[data-v-6d67d004],
 .event-wrapper .event-data .mark-as-done[data-v-d600bbfa] {
+  border-top: 1px solid #000000;
   background: #000000;
 }
 

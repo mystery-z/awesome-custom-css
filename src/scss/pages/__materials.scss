@@ -1,0 +1,57 @@
+/*materials.scss*/
+
+tme-lesson-list-item, 
+.lesson-page-view .lesson-page-container,
+.bulk-select-operation, .bulk-select-operation .btn.default, tme-section, tme-assessment-list-item[view=card] .assessment-card-header .assessment-card-thumbnail {
+	background-color: $black;	
+}
+
+tme-lesson-page .lesson-page-header .lesson-page-title-container tme-text .lesson-page-title{
+	color: $white;
+}
+
+tme-lesson-page-item.default,
+.section-items-list .section-card-object.disable-material tme-assessment-list-item, .section-items-list .section-card-object.disable-material tme-lesson-list-item, .section-items-list .section-card-object.disable-material tme-survey-list-item, .section-items-list .section-list-object.disable-material tme-assessment-list-item, .section-items-list .section-list-object.disable-material tme-lesson-list-item, .section-items-list .section-list-object.disable-material tme-survey-list-item {
+	background-color: $black;
+	color: $grey;
+}
+
+.bg-success, .input-append .add-on.bg-success{
+	background-color: $grey;
+	color: $black;
+}
+
+tme-assessment-list-item, tme-survey-list-item,
+.lesson-creation-form .lesson-settings,
+.lesson-creation-form .lesson-settings .lesson-settings-header,
+.lesson-page-list .lesson-page,
+.section-items-list .section-card-object .field-progress-stats:hover, .section-items-list .section-card-object .lesson-contents-table li:hover, .section-items-list .section-card-object .lesson-contents-table li:hover .progress-item{
+	background-color: $black;
+	color: $grey;
+}
+.label.label-info {
+	background-color: $normal-blue;
+	color: $white;
+}
+
+.node-lesson .field-progress-stats:hover, .node-lesson .lesson-contents-table li:hover, .node-lesson .lesson-contents-table li:hover .progress-item{
+	background-color: $black;
+	color: $grey;
+}
+
+tme-lesson-page .lesson-page-header{
+	background: $black;
+}
+
+/*border boxes*/
+
+tme-assessment-list-item[view=card] .assessment-details .assessment-card-meta, 
+tme-assessment-list-item[view=card] .assessment-card-submission-info, tme-assessment-list-item[view=card] .assessment-card-user-submission-info,
+tme-assessment-list-item[view=card] .assessment-details{
+	border-right: 1px solid $grey;
+}
+
+tme-assessment-list-item, tme-survey-list-item {
+	box-shadow: 0 0 4px 0 $grey;
+}
+

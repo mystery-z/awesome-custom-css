@@ -1,7 +1,55 @@
 /* pages/indiv_classroom */
 
+.fade-next-text:not(.etiqa-site) {
+	color: $grey;
+}
+
 #inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
 	background-color:$black;
 	box-shadow: 0 1px 4px #000000;
 	margin: none;
+}
+
+.node-post .field-post-actions {
+	border-bottom: none;
+	border-top: none;
+}
+
+.list-posts .node-post {
+	border: 0.5px solid $grey;
+}
+
+a:hover{
+	color: $white;
+}
+
+
+.classroom-scroll-filters, .event-footer.restrict-group-footer>button[data-v-6d67d004] {
+	background: $black;
+}
+
+.event-category .event-category-body.classroom-todos[data-v-52456225],
+tme-classroom-view .classroom-next.disabled:not(.etiqa-site) {
+	background-color: $black;
+}
+
+.panel .event-row[data-v-6d007f13] {
+	border-bottom: none;
+}
+
+.progress-item {
+	background-color: $black;
+}
+
+.bg-primary {
+	background-color: $black;
+	color: $white;
+}
+
+.bg-success-l2 {
+	background-color: $black;
+}
+
+.todos .panel.todo-user-accordion>.panel-heading .panel-title a, a.no-link-decoration {
+	color: $white;
 }

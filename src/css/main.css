@@ -116,11 +116,62 @@
   color: #000000;
 }
 
+.node-post, .node-post.node-post-announcement .post-header {
+  background-color: #000000;
+}
+
 /* pages/indiv_classroom */
+.fade-next-text:not(.etiqa-site) {
+  color: #8c8c8c;
+}
+
 #inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
   background-color: #000000;
   box-shadow: 0 1px 4px #000000;
   margin: none;
+}
+
+.node-post .field-post-actions {
+  border-bottom: none;
+  border-top: none;
+}
+
+.list-posts .node-post {
+  border: 0.5px solid #8c8c8c;
+}
+
+a:hover {
+  color: #FCFDFC;
+}
+
+.classroom-scroll-filters, .event-footer.restrict-group-footer > button[data-v-6d67d004] {
+  background: #000000;
+}
+
+.event-category .event-category-body.classroom-todos[data-v-52456225],
+tme-classroom-view .classroom-next.disabled:not(.etiqa-site) {
+  background-color: #000000;
+}
+
+.panel .event-row[data-v-6d007f13] {
+  border-bottom: none;
+}
+
+.progress-item {
+  background-color: #000000;
+}
+
+.bg-primary {
+  background-color: #000000;
+  color: #FCFDFC;
+}
+
+.bg-success-l2 {
+  background-color: #000000;
+}
+
+.todos .panel.todo-user-accordion > .panel-heading .panel-title a, a.no-link-decoration {
+  color: #FCFDFC;
 }
 
 /*quiz page*/
@@ -169,7 +220,7 @@ a {
 
 .quiz-taking .quiz-take-header .quiz-take-navigaton .question-navigation-main .question-navigation .danger a {
   background: black;
-  color: #red;
+  color: #e92b2b;
   border: 0px;
 }
 
@@ -226,6 +277,62 @@ a {
 
 .quiz-taking .quiz-take-bottom {
   background: #000000;
+}
+
+/*materials.scss*/
+tme-lesson-list-item,
+.lesson-page-view .lesson-page-container,
+.bulk-select-operation, .bulk-select-operation .btn.default, tme-section, tme-assessment-list-item[view=card] .assessment-card-header .assessment-card-thumbnail {
+  background-color: #000000;
+}
+
+tme-lesson-page .lesson-page-header .lesson-page-title-container tme-text .lesson-page-title {
+  color: #FCFDFC;
+}
+
+tme-lesson-page-item.default,
+.section-items-list .section-card-object.disable-material tme-assessment-list-item, .section-items-list .section-card-object.disable-material tme-lesson-list-item, .section-items-list .section-card-object.disable-material tme-survey-list-item, .section-items-list .section-list-object.disable-material tme-assessment-list-item, .section-items-list .section-list-object.disable-material tme-lesson-list-item, .section-items-list .section-list-object.disable-material tme-survey-list-item {
+  background-color: #000000;
+  color: #8c8c8c;
+}
+
+.bg-success, .input-append .add-on.bg-success {
+  background-color: #8c8c8c;
+  color: #000000;
+}
+
+tme-assessment-list-item, tme-survey-list-item,
+.lesson-creation-form .lesson-settings,
+.lesson-creation-form .lesson-settings .lesson-settings-header,
+.lesson-page-list .lesson-page,
+.section-items-list .section-card-object .field-progress-stats:hover, .section-items-list .section-card-object .lesson-contents-table li:hover, .section-items-list .section-card-object .lesson-contents-table li:hover .progress-item {
+  background-color: #000000;
+  color: #8c8c8c;
+}
+
+.label.label-info {
+  background-color: #003B71;
+  color: #FCFDFC;
+}
+
+.node-lesson .field-progress-stats:hover, .node-lesson .lesson-contents-table li:hover, .node-lesson .lesson-contents-table li:hover .progress-item {
+  background-color: #000000;
+  color: #8c8c8c;
+}
+
+tme-lesson-page .lesson-page-header {
+  background: #000000;
+}
+
+/*border boxes*/
+tme-assessment-list-item[view=card] .assessment-details .assessment-card-meta,
+tme-assessment-list-item[view=card] .assessment-card-submission-info, tme-assessment-list-item[view=card] .assessment-card-user-submission-info,
+tme-assessment-list-item[view=card] .assessment-details {
+  border-right: 1px solid #8c8c8c;
+}
+
+tme-assessment-list-item, tme-survey-list-item {
+  box-shadow: 0 0 4px 0 #8c8c8c;
 }
 
 /* components/left-navbar.scss */
@@ -295,8 +402,21 @@ header .navbar .search-help:hover {
   border-radius: none;
 }
 
-.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa] {
-  color: #000000;
+.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa],
+.todos-container {
+  color: #8c8c8c;
+}
+
+.event-category .event-category-body[data-v-52456225],
+.event-wrapper .event-data[data-v-d600bbfa],
+.event-list.panel-group[data-v-3cc03365],
+.event-category .event-category-heading.classroom-todo-heading[data-v-52456225] {
+  background-color: #000000;
+}
+
+.event-footer > button[data-v-6d67d004],
+.event-wrapper .event-data .mark-as-done[data-v-d600bbfa] {
+  background: #000000;
 }
 
 /* components/add_button.scss */
@@ -314,6 +434,53 @@ header .navbar .btn-global:hover {
   color: #FCFDFC;
   box-shadow: none;
   border: none;
+}
+
+/* posts.scss */
+/* posts */
+.node-post .post-text-overlay:not(.expanded)::after {
+  background: #000000;
+}
+
+.node-post .attachment-type-deadline {
+  background-color: #000000;
+  color: #8c8c8c;
+}
+
+/* comments */
+.node-post .field-post-attachments .field-post-attachment .link-wrapper .link-meta, .node-post .field-post-comment-attachments .field-post-attachment .link-wrapper .link-meta {
+  background: #000000;
+}
+
+.list-posts .node-post, .bg-subtle-highlight, .field-post-comment-box, .field-reply-comment-box, .comment-box-options, tme-classroom-view .classroom-next {
+  background-color: #000000;
+}
+
+.field-post-text, .node-post .field-post-meta, .node-post .field-post-meta .field-post-classroom, .node-post .field-post-meta .field-post-timestamp {
+  color: #8c8c8c !important;
+}
+
+.node-post-comment {
+  color: #8c8c8c;
+  border-bottom: none;
+}
+
+.node-post .field-post-comments-section > .field-post-comments-list {
+  color: #8c8c8c;
+  background: #000000;
+  border-left: none;
+}
+
+.node-post-comment:last-child {
+  border-top: none;
+}
+
+.node-post .field-post-comments-section > .field-post-comments-list .restricted-comments {
+  border-bottom: none;
+}
+
+.node-post .field-post-comments-section > .field-post-comments-list .restricted-comments:hover {
+  color: #FCFDFC;
 }
 
 /*# sourceMappingURL=main.css.map */

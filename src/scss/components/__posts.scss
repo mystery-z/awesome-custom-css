@@ -1,0 +1,48 @@
+/* posts.scss */
+/* posts */
+
+.node-post .post-text-overlay:not(.expanded)::after{
+	background: $black;
+}
+
+.node-post .attachment-type-deadline {
+	background-color: $black;
+	color: $grey;
+}
+
+/* comments */
+
+.node-post .field-post-attachments .field-post-attachment .link-wrapper .link-meta, .node-post .field-post-comment-attachments .field-post-attachment .link-wrapper .link-meta {
+	background: $black;	
+}
+
+.list-posts .node-post, .bg-subtle-highlight, .field-post-comment-box, .field-reply-comment-box, .comment-box-options, tme-classroom-view .classroom-next {
+	background-color: $black;	
+}
+
+.field-post-text,.node-post .field-post-meta, .node-post .field-post-meta .field-post-classroom, .node-post .field-post-meta .field-post-timestamp  {
+	color: $grey !important;
+}
+
+.node-post-comment {
+	color: $grey;
+	border-bottom: none;
+}
+
+.node-post .field-post-comments-section>.field-post-comments-list {
+	color: $grey;
+	background: $black;
+	border-left: none;	
+}
+
+.node-post-comment:last-child {
+	border-top: none;
+}
+
+.node-post .field-post-comments-section>.field-post-comments-list .restricted-comments {
+	border-bottom: none;
+}
+
+.node-post .field-post-comments-section>.field-post-comments-list .restricted-comments:hover {
+	color: $white;
+}

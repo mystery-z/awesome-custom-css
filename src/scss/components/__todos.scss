@@ -35,7 +35,24 @@
 	border-color: $black;
 	border-radius: none;
 }
-.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa] {
-	color: $black;
-	
+.event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa],
+.todos-container {
+	color: $grey;	
 }
+
+
+.event-category .event-category-body[data-v-52456225],
+.event-wrapper .event-data[data-v-d600bbfa],
+.event-list.panel-group[data-v-3cc03365],
+.event-category .event-category-heading.classroom-todo-heading[data-v-52456225] {
+	background-color: $black;
+}
+
+.event-footer>button[data-v-6d67d004] /*dumb footer thing*/, 
+.event-wrapper .event-data .mark-as-done[data-v-d600bbfa] {
+	background: $black;
+}
+
+
+
+

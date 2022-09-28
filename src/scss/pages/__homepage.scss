@@ -1,3 +1,5 @@
+//pages/homepage.scss
+
 // Classroom List 
 .list-group-item,
 .content-section,
@@ -110,5 +112,9 @@
 	background: $grey;
 	border: 1px solid $grey;
 	color: $black;
+}
+
+.node-post, .node-post.node-post-announcement .post-header{
+	background-color: $black;
 }
 

@@ -1,41 +1,63 @@
-/* */
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+html {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+:root {
+    --background: #000;
+    --blue: #669DFF;
+    --green: #60CE70;
+    --red: #E80125;
+}
+
 /* Colors */
-
-#main_results {
-  background-color:#252627;  
-}
-
-#results {   
-  color: #669DFF;
-  background: #252627;
-}
-
-#search_header {
-  background:#252627;
-}
-
+#main_results,
+#search_header,
 #search {
-  background:#252627;
+    background-color: var(--background);
 }
 
-highlight {
-  color: #459321;
+#results {
+    color: var(--blue);
+    background: var(--background);
+}
+
+
+
+highlight, .engines {
+    color: var(--green);
 }
 
 .search_filters {
-  background:#252627;
+    background: var(--background);
 }
 
 
 .cache_link {
-  color:#E80125;   
-}
-
-.engines {
-  color: #60CE70;   
+    color: var(--red);
 }
 
 
-a.url_wrapper:link{
-  color: #8B8B8B;
+a.url_wrapper:link {
+    color:#FFF;
+} 
+
+a.url_wrapper:visited {
+    color:  #B3AAAA33;
+}
+
+h4#suggestions-title.title, .suggestion, .wrapper, #suggestions, input[type=submit], #sidebar { 
+    color: var(--blue);
+}
+
+p#result_count {
+    font-size: large;
+    color:  var(--green);
+}
+
+.result .content .highlight, .result .stat .highlight {
+	color: var(--blue)
 }

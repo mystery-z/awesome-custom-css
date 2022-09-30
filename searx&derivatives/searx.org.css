@@ -7,7 +7,7 @@ html {
 }
 
 :root {
-    --background: #252627;
+    --background: #000;
     --blue: #669DFF;
     --green: #60CE70;
     --red: #E80125;
@@ -56,4 +56,8 @@ h4#suggestions-title.title, .suggestion, .wrapper, #suggestions, input[type=subm
 p#result_count {
     font-size: large;
     color:  var(--green);
+}
+
+.result .content .highlight, .result .stat .highlight {
+	color: var(--blue)
 }

@@ -402,7 +402,7 @@ header .navbar .search-help:hover {
   color: #8c8c8c;
   background-color: #000000;
   border-color: #000000;
-  border-radius: none;
+  border-radius: 0;
 }
 
 .event-wrapper .event-data .event-tile-wrapper .event-tile .title[data-v-d600bbfa],
@@ -413,10 +413,38 @@ header .navbar .search-help:hover {
 }
 
 .event-category .event-category-body[data-v-52456225],
-.event-wrapper .event-data[data-v-d600bbfa],
 .event-list.panel-group[data-v-3cc03365],
 .event-category .event-category-heading.classroom-todo-heading[data-v-52456225] {
   background-color: #000000;
+}
+
+.event-wrapper .date-wrapper[data-v-d600bbfa] {
+  color: #FCFDFC;
+}
+
+.event-footer > button[data-v-6d67d004], .event-wrapper .event-data .mark-as-done[data-v-d600bbfa] {
+  box-shadow: none;
+  border-radius: 0 0 5px 5px;
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.event-wrapper .event-data[data-v-d600bbfa] {
+  background-color: #000000;
+  box-shadow: none;
+  transition: box-shadow 250ms ease-in-out 10ms;
+}
+.event-wrapper .event-data[data-v-d600bbfa]:hover {
+  box-shadow: 0 0 0 2px #FCFDFC !important;
+}
+.event-wrapper .event-data[data-v-d600bbfa] .text-primary {
+  color: #8c8c8c;
+  transition: color 250ms ease-in-out 10ms, transform 250ms ease-in-out 10ms;
+}
+.event-wrapper .event-data[data-v-d600bbfa] .text-primary:hover {
+  color: #FCFDFC;
+  transform: scale(1.1);
 }
 
 .event-footer > button[data-v-6d67d004],

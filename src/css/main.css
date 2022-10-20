@@ -130,7 +130,7 @@
 #inner-side-bar .list-group-item.active, .inner-side-bar .list-group .list-group-item:hover, .inner-side-bar .list-group, .inner-side-bar .list-group .list-group-item, .inner-side-bar .list-group .list-group-ellipsis-icon .todos-container .wrapper {
   background-color: #000000;
   box-shadow: 0 1px 4px #000000;
-  margin: none;
+  margin: 0px;
 }
 
 .node-post .field-post-actions {
@@ -379,7 +379,7 @@ header .navbar .search-help:hover {
 
 .main-container .todos-container {
   background: #000000;
-  border-radius: none;
+  border-radius: 0px;
 }
 
 .event-filters > button[data-v-95a639b8], .main-container, .todos-container {
